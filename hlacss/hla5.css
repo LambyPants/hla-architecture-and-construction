@@ -1,0 +1,437 @@
+body {
+  font-family: 'Poiret One', cursive;
+}
+
+#shadow {
+  height: 52vh;
+  background-position: 50% 50%;
+  background-size: cover;
+  box-shadow: 0 0 0 748px inset;
+ /* hover out transition */
+ transition: box-shadow 2s ease;
+
+
+}
+/* Portrait phones and smaller */
+@media (max-width: 700px) {
+#shadow {
+height: 480px;
+}
+}
+
+#galleryheader {
+  height: 360px;
+    box-shadow: 0 0 0 630px inset;
+
+}
+
+
+.bio {
+  border: 1px solid #ddd;
+  border-radius: 2%;
+  padding: 10px 20px 30px 20px;
+  margin-bottom: 100px;
+
+}
+h3 {
+  text-align: none;
+  line-height: 1.7;
+  font-size: 30px;
+
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+h3{
+font-size:18px;
+}
+}
+
+
+.bio h3 {
+  font-size: 23px;
+  line-height: 1.7;
+  text-align: none;
+}
+
+.aboutMePhotos {
+  padding-top:40px;
+  margin-bottom: 50px; }
+
+.navigationsinglefamily {
+  background-image: url(./HLAFinal/CustomHomes/MacCauleyHouse/1Thumbnail.jpg);
+  color: rgba(109, 163 , 217, .6);
+   background-size:cover;
+   background-position: 30% 70%;
+   background-repeat: no-repeat;
+   height: 748px;
+   
+
+}
+
+.navigationmultifamily {
+  background-image: url(./HLAFinal/MultiFamilyHomes/LakesOfWindsor/5.jpg);
+  color: rgba(109, 163 , 217, .6);
+   background-size:cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 748px;
+}
+
+.navigationcommercial {
+  background-image: url(./HLAFinal/Commercial/3Oaks/1.JPG);
+  color: rgba(109, 163 , 217, .6);
+   background-size:cover;
+   background-repeat: no-repeat;
+background-position: 55% 45%;
+   height: 748px;
+}
+.navigationcurrentproject {
+  background-image: url(./HLAFinal/CurrentProjects/IndianRiverVillas/banner.jpg);
+  color: rgba(109, 163 , 217, .6);
+   background-size:cover;
+   background-repeat: no-repeat;
+background-position: 60% 40%;
+   height: 748px;
+}
+
+
+.navigation {
+  background-image: url(./HLAFinal//CustomHomes/RonHouse/5.JPG);
+  color: rgba(109, 163 , 217, .6);
+   background-size:cover;
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+   height: 1000px;
+
+}
+
+
+.navbar-default{
+    background:none;
+    border:none;
+}
+.navbar-default .navbar-brand  {
+padding-left: 40px;
+font-weight: bolder;
+  font-size: 20px;
+  color: white;
+}
+
+.navbar-brand-home {
+  padding: 15px;
+  margin: 10px 4px 0 4px;
+  font-size: 24px;
+
+}
+.navbar-brand-home a {
+  color: white;
+font-weight: bolder;
+font-size: 24px;
+}
+.navbar-brand-home a:hover {
+text-decoration: none;
+  color: black;
+}
+.navbar.transparent.navbar-inverse .navbar-inner {
+  background: rgba(0,0,0,0.4);
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+.navbar-default .navbar-brand {
+font-size:22px;
+}
+}
+.variation-nav a {
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-size: 24px;
+  color: white;
+}
+ul.nav.navbar-nav.navbar-right {
+
+  margin: 10px 4px 0 4px;
+}
+.navbar-default .navbar-nav a {
+  font-size: 20px;
+font-weight: bolder;
+  margin: 10px 8px 0 8px;
+}
+.btn-primary {
+  background-color: rgba(0,0,0,0);
+  border: none;
+}
+
+.btn {
+  list-style: none;
+  text-align: left;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+#titlescreen {
+  margin: auto;
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 18px;
+  color: white;
+
+
+}
+#titlescreen-gallery  {
+  margin: auto;
+  color: white;
+  padding-top: 3%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 24px;
+  color: white;
+
+}
+
+#logotop {
+  font-size: 65px;
+  color: white;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 1380px) {
+#logotop{
+  font-size:45px;
+}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+#logotop{
+font-size:30px;
+}
+}
+
+.container {
+  width: 85%;
+  height: 80%;
+
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+p {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+#top {
+  border-top: 4px white solid;
+  background: black;
+  padding-top: 20px;
+  height: 480px;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+#galleryLinks {
+  background: white;
+}
+
+h1 {
+  margin-top: -10px;
+  font-size: 48px;
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
+}
+
+#HL-short-bio {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.sameHeight a img {
+  height: 300px;
+  width:100%;
+}
+
+@media(max-width: 1600px) {
+.sameHeight a img {
+  height:205px;
+  width:100%;
+}
+}
+
+@media (max-width: 990px) {
+.sameHeight a img{
+  width:100%;
+  height: 100%;
+}
+}
+
+
+.sameHeight img {
+    height:300px;
+    width:100%;
+}
+
+@media(max-width: 1600px) {
+.sameHeight  img {
+  height:205px;
+  width:100%;
+}
+}
+
+@media (max-width: 990px) {
+.sameHeight img{
+  width:100%;
+  height: 100%;
+}
+
+}
+
+
+.sameHeightcommerical img {
+  height: 400px;
+  width: 100%;
+}
+
+@media (max-width: 1600px) {
+.sameHeightcommerical img{
+  width:100%;
+  height: 340px;
+}
+}
+@media (max-width: 780px) {
+.sameHeightcommerical img{
+  width:100%;
+  height: 100%;
+}
+}
+
+.caption {
+  text-align: center;
+  background: #0052a4;
+
+}
+h4 {
+  color: white;
+  font-size: 22px;
+}
+
+
+.intro {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  padding: 60px 20px;
+
+}
+
+
+
+carousel-inner>.item>a>img, .carousel-inner>.item>img{
+  margin: 0 auto;
+}
+
+.carousel-control.left,.carousel-control.right{
+  background-image:none;
+  margin-top:10%;
+  width:5%;
+}
+.contactInfo {
+  border: solid 1px #ddd;
+  font-size: 18px;
+  border-radius: 2%;
+}
+#portfolioheader {
+  background: rgb(109, 163 , 217);
+  color: white;
+}
+
+
+#address li {
+  font-size: 24px;
+  text-align: center;
+  list-style: none;
+line-height: 1.4em;
+}
+
+#contactForm {
+  font-size: 18px;
+
+}
+.dropdown-menu>li>a {
+  font-size: 24px;
+}
+.modal-text {
+  font-size:24px;
+  text-align: center;
+}
+@media (min-width: 768px)
+{
+.modal-dialog {
+  min-width: 80%;
+}
+}
+#modal-gallery {
+margin-top: -30px;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img  {
+  max-width:100%;
+  max-height: 88vh;
+
+}
+.modal-header .close {
+font-size: 24px;
+  padding-right: 20px;
+  padding-top: 4px;
+}
+.modal-title {
+  text-align: center;
+font-size: 24px;
+}
+.modal-footer {
+  font-size: 20px;
+  text-align: center;
+}
+
+#logo-contact-page {
+    text-align: center;
+
+}
+#logo-contact-page img {
+  width: 120px;
+}
+.shortened-hr {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+
+form {
+  margin-right: 120px;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+color: black;
+}
+
+@media (max-width: 767px) {
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+color: white;
+}
+}
+
