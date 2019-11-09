@@ -22,22 +22,24 @@
   <body>
     <div id="shadow" class="navigation">
       <nav class="navbar navbar-default">
-        <div class="container-fluid">
+        <div class="container-fluid flex-space-between">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
-            <button
-              type="button"
-              class="navbar-toggle collapsed"
-              data-toggle="collapse"
-              data-target="#bs-example-navbar-collapse-1"
-              aria-expanded="false"
-            >
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div class="navbar-brand-home"><a href="index.html"> Home</a></div>
+            <div class="navbar-brand-home">
+              <a href="index.html"> Home</a>
+              <button
+                type="button"
+                class="navbar-toggle collapsed"
+                data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1"
+                aria-expanded="false"
+              >
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -68,9 +70,15 @@
                 ></a>
                 <ul class="dropdown-menu">
                   <li><a href="pages/custom-homes.html">Custom Homes</a></li>
-                  <li><a href="pages/multi-family-homes.html">Multi-Family</a></li>
-                  <li><a href="pages/office-buildings.html">Office Buildings</a></li>
-                  <li><a href="pages/current-projects.html">Current Projects</a></li>
+                  <li>
+                    <a href="pages/multi-family-homes.html">Multi-Family</a>
+                  </li>
+                  <li>
+                    <a href="pages/office-buildings.html">Office Buildings</a>
+                  </li>
+                  <li>
+                    <a href="pages/current-projects.html">Current Projects</a>
+                  </li>
                 </ul>
               </li>
             </ul>
@@ -90,57 +98,53 @@
       <!-- /.container-fluid -->
     </div>
 
-    <hr class="shortened-hr" />
     <div id="galleryLinks">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="thumbnail sameHeight">
-              <a href="pages/custom-homes.html">
-                <img src="homepagecustomhomes.jpg" />
+      <div class="row flex-center-container">
+        <div class="col-md-3">
+          <div class="thumbnail sameHeight">
+            <a href="pages/custom-homes.html">
+              <img src="homepagecustomhomes.jpg" />
 
-                <div class="caption">
-                  <h4>Custom Homes</h4>
-                </div>
-              </a>
-            </div>
+              <div class="caption">
+                <h4>Custom Homes</h4>
+              </div>
+            </a>
           </div>
-          <div class="col-md-3">
-            <div class="thumbnail sameHeight">
-              <a href="pages/multi-family-homes.html">
-                <img src="homepagemultifamily.jpg" />
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail sameHeight">
+            <a href="pages/multi-family-homes.html">
+              <img src="homepagemultifamily.jpg" />
 
-                <div class="caption">
-                  <h4>Multi-Family</h4>
-                </div>
-              </a>
-            </div>
+              <div class="caption">
+                <h4>Multi-Family</h4>
+              </div>
+            </a>
           </div>
-          <div class="col-md-3">
-            <div class="thumbnail sameHeight">
-              <a href="pages/office-buildings.html">
-                <img src="homepageoffice.jpg" />
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail sameHeight">
+            <a href="pages/office-buildings.html">
+              <img src="homepageoffice.jpg" />
 
-                <div class="caption">
-                  <h4>Office Buildings</h4>
-                </div>
-              </a>
-            </div>
+              <div class="caption">
+                <h4>Office Buildings</h4>
+              </div>
+            </a>
           </div>
-          <div class="col-md-3">
-            <div class="thumbnail sameHeight">
-              <a href="pages/current-projects.html">
-                <img src="homepagecurrentprojects.jpg" />
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail sameHeight">
+            <a href="pages/current-projects.html">
+              <img src="homepagecurrentprojects.jpg" />
 
-                <div class="caption">
-                  <h4>Current Projects</h4>
-                </div>
-              </a>
-            </div>
+              <div class="caption">
+                <h4>Current Projects</h4>
+              </div>
+            </a>
           </div>
         </div>
       </div>
-      <hr />
     </div>
 
     <div id="address">
@@ -156,9 +160,6 @@
     <div id="logo-contact-page">
       <img src="./HLAFinal/HL LOGO BLUE.JPG" />
     </div>
-
-    <hr />
-
     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
