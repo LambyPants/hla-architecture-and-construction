@@ -291,7 +291,7 @@ h1 {
 
 @media (max-width: 1600px) {
   .sameHeight img {
-    height: 205px;
+    max-height: 210px;
     width: 100%;
   }
 }
