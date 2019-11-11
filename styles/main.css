@@ -58,7 +58,7 @@ h3 {
 }
 
 .navigationsinglefamily {
-  background-image: url(./HLAFinal/CustomHomes/MacCauleyHouse/1Thumbnail.jpg);
+  background-image: url(https://ik.imagekit.io/125hl1956/MacCauley_House/1_-_Thumnail_I9X4RATH8c.JPG);
   color: rgba(109, 163, 217, 0.6);
   background-size: cover;
   background-position: 30% 70%;
@@ -93,7 +93,7 @@ h3 {
 }
 
 .navigation {
-  background-image: url(./HLAFinal//CustomHomes/RonHouse/5.JPG);
+  background-image: url('https://ik.imagekit.io/125hl1956/4_R_House/5_eE95JHQDL.JPG');
   color: rgba(109, 163, 217, 0.6);
   background-size: cover;
   background-position: 50% 50%;
@@ -404,6 +404,7 @@ carousel-inner > .item > a > img,
 }
 #logo-contact-page img {
   width: 120px;
+  margin-bottom: 16px;
 }
 .shortened-hr {
   margin-top: 8px;
