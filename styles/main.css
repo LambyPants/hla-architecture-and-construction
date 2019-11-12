@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
 }
 
 #shadow {
@@ -67,7 +67,7 @@ h3 {
 }
 
 .navigationmultifamily {
-  background-image: url(./HLAFinal/MultiFamilyHomes/LakesOfWindsor/5.jpg);
+  background-image: url(https://ik.imagekit.io/125hl1956/5_Lakes_Of_Windsor/5_jlqj8s0Rg6.JPG);
   color: rgba(109, 163, 217, 0.6);
   background-size: cover;
   background-position: center;
@@ -76,7 +76,7 @@ h3 {
 }
 
 .navigationcommercial {
-  background-image: url(./HLAFinal/Commercial/3Oaks/1.JPG);
+  background-image: url(https://ik.imagekit.io/125hl1956/1_Prof_Oaks/1_-_Thumbnail_qiG4c5lo-.JPG);
   color: rgba(109, 163, 217, 0.6);
   background-size: cover;
   background-repeat: no-repeat;
@@ -84,7 +84,7 @@ h3 {
   height: 748px;
 }
 .navigationcurrentproject {
-  background-image: url(./HLAFinal/CurrentProjects/IndianRiverVillas/banner.jpg);
+  background-image: url(https://ik.imagekit.io/125hl1956/1_CP_1745/Screen_Shot_2019-11-12_at_2.30.46_PM_f4cMQzbEb.png);
   color: rgba(109, 163, 217, 0.6);
   background-size: cover;
   background-repeat: no-repeat;
@@ -93,7 +93,7 @@ h3 {
 }
 
 .navigation {
-  background-image: url('https://ik.imagekit.io/125hl1956/4_R_House/5_eE95JHQDL.JPG');
+  background-image: url(https://ik.imagekit.io/125hl1956/4_R_House/5_eE95JHQDL.JPG);
   color: rgba(109, 163, 217, 0.6);
   background-size: cover;
   background-position: 50% 50%;
