@@ -17,6 +17,10 @@
     />
     <link rel="icon" href="hllogo.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="hllogo.ico" type="image/x-icon" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"
+    ></script>
   </head>
 
   <body>
@@ -101,9 +105,12 @@
     <div id="galleryLinks">
       <div class="row flex-center-container">
         <div class="col-md-3">
-          <div class="thumbnail sameHeight">
+          <div class="thumbnail lozad sameHeight">
             <a href="pages/custom-homes.html">
-              <img src="https://ik.imagekit.io/125hl1956/H_House/8_EoXJwEmV_.jpg" />
+              <img
+                class="lozad"
+                data-src="https://ik.imagekit.io/125hl1956/H_House/8_EoXJwEmV_.jpg"
+              />
 
               <div class="caption">
                 <h4>Custom Homes</h4>
@@ -112,9 +119,12 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="thumbnail sameHeight">
+          <div class="thumbnail lozad sameHeight">
             <a href="pages/multi-family-homes.html">
-              <img src="https://ik.imagekit.io/125hl1956/2_Windsor_Oaks/1_-_Thumbnail_xlCkQOqD-.jpg" />
+              <img
+                class="lozad"
+                data-src="https://ik.imagekit.io/125hl1956/2_Windsor_Oaks/1_-_Thumbnail_xlCkQOqD-.jpg"
+              />
 
               <div class="caption">
                 <h4>Multi-Family</h4>
@@ -123,9 +133,12 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="thumbnail sameHeight">
+          <div class="thumbnail lozad sameHeight">
             <a href="pages/office-buildings.html">
-              <img src="https://ik.imagekit.io/125hl1956/1_Prof_Oaks/1_-_Thumbnail_qiG4c5lo-.JPG" />
+              <img
+                class="lozad"
+                data-src="https://ik.imagekit.io/125hl1956/1_Prof_Oaks/1_-_Thumbnail_qiG4c5lo-.JPG"
+              />
               <div class="caption">
                 <h4>Office Buildings</h4>
               </div>
@@ -133,9 +146,12 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="thumbnail sameHeight">
+          <div class="thumbnail lozad sameHeight">
             <a href="pages/current-projects.html">
-              <img src="https://ik.imagekit.io/125hl1956/1_CP_1745/Screen_Shot_2019-11-12_at_2.30.46_PM_f4cMQzbEb.png" />
+              <img
+                class="lozad"
+                data-src="https://ik.imagekit.io/125hl1956/1_CP_1745/Screen_Shot_2019-11-12_at_2.30.46_PM_f4cMQzbEb.png"
+              />
 
               <div class="caption">
                 <h4>Current Projects</h4>
@@ -162,5 +178,9 @@
     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+      var observer = lozad(); // lazy loads elements with default selector as '.lozad'
+      observer.observe();
+    </script>
   </body>
 </html>

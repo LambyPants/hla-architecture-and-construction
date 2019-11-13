@@ -18,6 +18,10 @@
     />
     <link rel="icon" href="../hllogo.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="../hllogo.ico" type="image/x-icon" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"
+    ></script>
   </head>
   <body>
     <div id="galleryheader" class="navigationcurrentproject">
@@ -87,9 +91,9 @@
           <div class="col-md-6">
             <a title="Image 1" class="sameHeightcommerical" href="#">
               <img
-                class="thumbnail img-responsive "
+                class="thumbnail lozad img-responsive "
                 id="image-1"
-                src="https://ik.imagekit.io/125hl1956/1_CP_1745/Screen_Shot_2019-11-12_at_2.27.04_PM_S5AZOegmG.png"
+                data-src="https://ik.imagekit.io/125hl1956/1_CP_1745/Screen_Shot_2019-11-12_at_2.27.04_PM_S5AZOegmG.png"
               />
             </a>
           </div>
@@ -97,9 +101,9 @@
           <div class="col-md-6">
             <a title="Image 2" class="sameHeightcommerical" href="#">
               <img
-                class="thumbnail img-responsive sameHeight"
+                class="thumbnail lozad img-responsive sameHeight"
                 id="image-2"
-                src="https://ik.imagekit.io/125hl1956/1_CP_1745/Screen_Shot_2019-11-12_at_2.30.46_PM_f4cMQzbEb.png"
+                data-src="https://ik.imagekit.io/125hl1956/1_CP_1745/Screen_Shot_2019-11-12_at_2.30.46_PM_f4cMQzbEb.png"
               />
             </a>
           </div>
@@ -112,23 +116,23 @@
       <!-- #image-1 -->
       <div class="item" id="image-1">
         <img
-          class="thumbnail img-responsive"
+          class="thumbnail lozad img-responsive"
           title="1745 Professional Office Building Proposed 8,000 SF Office Building with 21 covered and 6 open parking spaces Downtown Vero Beach, Florida. For information regarding Leasing or Purchase contact Joe Foglia at (954) 444."
-          src="https://ik.imagekit.io/125hl1956/1_CP_1745/Screen_Shot_2019-11-12_at_2.27.04_PM_S5AZOegmG.png"
+          data-src="https://ik.imagekit.io/125hl1956/1_CP_1745/Screen_Shot_2019-11-12_at_2.27.04_PM_S5AZOegmG.png"
         />
       </div>
       <div class="item" id="image-1">
         <img
-          class="thumbnail img-responsive"
+          class="thumbnail lozad img-responsive"
           title="Image 12"
-          src="https://ik.imagekit.io/125hl1956/1_CP_1745/Screen_Shot_2019-11-12_at_2.27.34_PM_-f65vZIe9.png"
+          data-src="https://ik.imagekit.io/125hl1956/1_CP_1745/Screen_Shot_2019-11-12_at_2.27.34_PM_-f65vZIe9.png"
         />
       </div>
       <div class="item" id="image-1">
         <img
-          class="thumbnail img-responsive"
+          class="thumbnail lozad img-responsive"
           title="Image 12"
-          src="https://ik.imagekit.io/125hl1956/1_CP_1745/Screen_Shot_2019-11-12_at_2.28.02_PM_zZvYBkGzJ.png"
+          data-src="https://ik.imagekit.io/125hl1956/1_CP_1745/Screen_Shot_2019-11-12_at_2.28.02_PM_zZvYBkGzJ.png"
         />
       </div>
 
@@ -136,16 +140,16 @@
 
       <div class="item" id="image-2">
         <img
-          class="thumbnail img-responsive"
+          class="thumbnail lozad img-responsive"
           title="River Palms Proposed 12 Unit Luxury Condominiums on the Indian River Lagoon Fort Pierce, Florida"
-          src="https://ik.imagekit.io/125hl1956/1_CP_1745/Screen_Shot_2019-11-12_at_2.30.46_PM_f4cMQzbEb.png"
+          data-src="https://ik.imagekit.io/125hl1956/1_CP_1745/Screen_Shot_2019-11-12_at_2.30.46_PM_f4cMQzbEb.png"
         />
       </div>
       <div class="item" id="image-2">
         <img
-          class="thumbnail img-responsive"
+          class="thumbnail lozad img-responsive"
           title="Image 12"
-          src="https://ik.imagekit.io/125hl1956/1_CP_1745/Screen_Shot_2019-11-12_at_2.31.03_PM_-r0VXotml.png"
+          data-src="https://ik.imagekit.io/125hl1956/1_CP_1745/Screen_Shot_2019-11-12_at_2.31.03_PM_-r0VXotml.png"
         />
       </div>
     </div>
@@ -187,5 +191,9 @@
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="../javascript/carousel.js"></script>
+    <script>
+      var observer = lozad();
+      observer.observe();
+    </script>
   </body>
 </html>

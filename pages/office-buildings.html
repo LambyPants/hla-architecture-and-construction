@@ -18,6 +18,10 @@
     />
     <link rel="icon" href="../hllogo.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="../hllogo.ico" type="image/x-icon" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"
+    ></script>
   </head>
   <body>
     <div id="galleryheader" class="navigationcommercial">
@@ -89,9 +93,9 @@ Vero Beach, Florida  -->
           <div class="col-md-6">
             <a title="Image 1" class="sameHeightcommerical" href="#">
               <img
-                class="thumbnail img-responsive "
+                class="thumbnail lozad img-responsive "
                 id="image-1"
-                src="https://ik.imagekit.io/125hl1956/1_Prof_Oaks/1_-_Thumbnail_qiG4c5lo-.JPG"
+                data-src="https://ik.imagekit.io/125hl1956/1_Prof_Oaks/1_-_Thumbnail_qiG4c5lo-.JPG"
               />
             </a>
           </div>
@@ -99,9 +103,9 @@ Vero Beach, Florida  -->
           <div class="col-md-6">
             <a title="Image 2" class="sameHeightcommerical" href="#">
               <img
-                class="thumbnail img-responsive sameHeight"
+                class="thumbnail lozad img-responsive sameHeight"
                 id="image-2"
-                src="https://ik.imagekit.io/125hl1956/2_Prof_Soc/1_-_Thumbnail_ANRCa3BtG.JPG"
+                data-src="https://ik.imagekit.io/125hl1956/2_Prof_Soc/1_-_Thumbnail_ANRCa3BtG.JPG"
               />
             </a>
           </div>
@@ -114,46 +118,46 @@ Vero Beach, Florida  -->
       <!-- #image-1 -->
       <div class="item" id="image-1">
         <img
-          class="thumbnail img-responsive"
+          class="thumbnail lozad img-responsive"
           title="24,350 SF Mixed Use Office Space in 3 Buildings - 3 Oaks Professional Center, Vero Beach, FL"
-          src="https://ik.imagekit.io/125hl1956/1_Prof_Oaks/1_-_Thumbnail_qiG4c5lo-.JPG"
+          data-src="https://ik.imagekit.io/125hl1956/1_Prof_Oaks/1_-_Thumbnail_qiG4c5lo-.JPG"
         />
       </div>
       <div class="item" id="image-1">
         <img
-          class="thumbnail img-responsive"
+          class="thumbnail lozad img-responsive"
           title="Image 12"
-          src="https://ik.imagekit.io/125hl1956/1_Prof_Oaks/2_lUiYfW2Ke.JPG"
+          data-src="https://ik.imagekit.io/125hl1956/1_Prof_Oaks/2_lUiYfW2Ke.JPG"
         />
       </div>
       <div class="item" id="image-1">
         <img
-          class="thumbnail img-responsive"
+          class="thumbnail lozad img-responsive"
           title="Image 13"
-          src="https://ik.imagekit.io/125hl1956/1_Prof_Oaks/3_KbadmvFq3.JPG"
+          data-src="https://ik.imagekit.io/125hl1956/1_Prof_Oaks/3_KbadmvFq3.JPG"
         />
       </div>
       <div class="item" id="image-1">
         <img
           class="thumnail img-responsive"
           title="Image 14"
-          src="https://ik.imagekit.io/125hl1956/1_Prof_Oaks/4_qd3Ae1jHN.JPGG"
+          data-src="https://ik.imagekit.io/125hl1956/1_Prof_Oaks/4_qd3Ae1jHN.JPG"
         />
       </div>
 
       <!-- #image-2 -->
       <div class="item" id="image-2">
         <img
-          class="thumbnail img-responsive"
+          class="thumbnail lozad img-responsive"
           title="10,124SF Office Space for the Social Security Administration - Lambert Professional Building, Vero Beach FL"
-          src="https://ik.imagekit.io/125hl1956/2_Prof_Soc/1_-_Thumbnail_ANRCa3BtG.JPG"
+          data-src="https://ik.imagekit.io/125hl1956/2_Prof_Soc/1_-_Thumbnail_ANRCa3BtG.JPG"
         />
       </div>
       <div class="item" id="image-2">
         <img
-          class="thumbnail img-responsive"
+          class="thumbnail lozad img-responsive"
           title="Image 12"
-          src="https://ik.imagekit.io/125hl1956/2_Prof_Soc/2_oHHp5GSs4.JPG"
+          data-src="https://ik.imagekit.io/125hl1956/2_Prof_Soc/2_oHHp5GSs4.JPG"
         />
       </div>
     </div>
@@ -195,5 +199,9 @@ Vero Beach, Florida  -->
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="../javascript/carousel.js"></script>
+    <script>
+      var observer = lozad();
+      observer.observe();
+    </script>
   </body>
 </html>
