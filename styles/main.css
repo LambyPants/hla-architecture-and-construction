@@ -1,5 +1,5 @@
 body {
-  font-family: "Poiret One", cursive;
+  font-family: 'Poiret One', cursive;
 }
 
 #shadow {
@@ -94,7 +94,7 @@ h3 {
 }
 
 .navigation {
-  background-image: url(https://ik.imagekit.io/125hl1956/4_R_House/5_eE95JHQDL.JPG);
+  background-image: url(https://ik.imagekit.io/125hl1956/9_D_House/8_Starfish-VB-HL-021920-75_F6Ac7aReg.jpg);
   color: rgba(109, 163, 217, 0.6);
   background-size: cover;
   background-position: 50% 50%;
@@ -382,6 +382,9 @@ carousel-inner > .item > a > img,
 }
 .dropdown-menu > li > a {
   font-size: 24px;
+}
+.modal-content {
+  min-height: 400px;
 }
 .modal-text {
   font-size: 24px;
